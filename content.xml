@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<content>
+  <choose>
+    <title>Select An Ad</title>
+    <photo>media/tap.png</photo>
+  </choose>
+
+  <choose>
+    <title>Place A Bid</title>
+    <photo>media/bid.png</photo>
+  </choose>
+
+  <choose>
+    <title>Keep Bidding</title>
+    <photo>media/skills.png</photo>
+  </choose>
+
+  <choose>
+    <title>Be The Winner</title>
+    <photo>media/winner.png</photo>
+  </choose>
+</content>
