@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+
+<style>
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar{
+    display:float;
+  }
+  .leftnav{
+    height:90px;
+    width:40%;
+    background-color:black;
+    float:left;
+  }
+
+  .leftnav h1{
+    font-family: 'Nunito', sans-serif;
+    color: #00cc33;
+  }
+
+  .leftnav img{
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .rightnav{
+    height:90px;
+    width:60%;
+    background-color:black;
+    float:left;
+  }
+
+  .rightnav ul{
+    float: right;
+    margin-top: 35px;
+    margin-right: 120px;
+    color: white;
+    list-style-type: none;
+    font-family: 'Nunito', sans-serif;
+
+  }
+
+  .rightnav li{
+    display: inline;
+    font-size:18px;
+    margin-left: 15px;
+  }
+
+  .navmenu{
+    color: white;
+    text-decoration: none;
+  }
+
+  .navmenu:hover{
+    color: #00cc33;
+  }
+
+  .content{
+    overflow:Auto;
+  }
+
+  .bidwindow{
+    width:850px;
+    display:float;
+    margin: 200px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    overflow:auto;
+
+  }
+
+  .winner{
+    display:float;
+    float:left;
+    width:795px;
+    margin-left:25px;
+    text-align:center;
+    margin-bottom:15px;
+  }
+  .text{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: red;
+  }
+
+  .bidding{
+    float:left;
+    width:350px;
+    text-align:center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    margin-left:25px;
+  }
+
+  .bidding img {
+   border-radius: 2%;
+   height: 320px;
+   width: 350px;
+
+ }
+
+ .adtitle{
+   font-weight:bold;
+   font-size: 20px;
+   margin-bottom: 10px;
+ }
+
+ .bidboard{
+   float:left;
+   text-align:center;
+   font-family: 'Nunito', sans-serif;
+   width:450px;
+
+ }
+
+ .offeredprices{
+   font-size: 18px;
+   font-weight:bold;
+ }
+
+.bids{
+  overflow-y: auto;
+  overflow-x: hidden;
+  height:400px;
+}
+
+ table{
+   width:100%;
+   margin-left:6px;
+ }
+
+th{
+  position: sticky;
+  top: 0;
+  background-color: #5ECC88;
+}
+
+  table td, table th {
+   color: #2b686e;
+   padding: 10px;
+ }
+
+  table td {
+   text-align: center;
+   vertical-align: middle;
+ }
+
+ table tr{
+   width: 100%;
+ }
+
+ .tablehead {
+  background-color: #5ECC88;
+}
+
+
+.price{
+  background: rgba(255,255,255,0.6);
+  border-color: transparent;
+  border-bottom: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  color: black;
+  width: 80%;
+}
+
+.registerbutton{
+  margin: 100px auto;
+  background: indigo;
+  border: 1px solid indigo;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  width: 20%;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration:none;
+  font-size: 16px;
+}
+
+.registerbutton:hover {
+background-color:white;
+color:black;
+}
+
+
+
+</style>
+
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <title>Bidding | Vendued</title>
+  </head>
+  <body>
+
+
+    <div class="content">
+
+      <div class="navbar">
+        <div class="leftnav">
+          <a href="index.php"><img style="float:left" src="media/logo.png" height="60" width="60" alt=""></a>
+          <a href="index.php"><h1 style="float:left;margin-left:10px">vendued</h1></a>
+        </div>
+        <div class="rightnav">
+          <ul>
+            <a href="index.php" class="navmenu"><li>Home</li></a>
+
+            <a href="" class="navmenu"><li>My Ads</li></a>
+            <a href="" class="navmenu"><li>My Bids</li></a>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bidwindow">
+        <div class="winner">
+          <div class="text">
+            Access Denied <br> You Must Login To Bid On This Ad <br> <br>
+            <a class="registerbutton" href="index.php">Return Home</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+  </body>
+</html>

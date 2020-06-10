@@ -1,0 +1,218 @@
+<style>
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar{
+    display:float;
+  }
+  .leftnav{
+    height:90px;
+    width:40%;
+    background-color:black;
+    float:left;
+  }
+
+  .leftnav h1{
+    font-family: 'Nunito', sans-serif;
+    color: #00cc33;
+  }
+
+  .leftnav img{
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .rightnav{
+    height:90px;
+    width:60%;
+    background-color:black;
+    float:left;
+  }
+
+  .rightnav ul{
+    float: right;
+    margin-top: 35px;
+    margin-right: 120px;
+    color: white;
+    list-style-type: none;
+    font-family: 'Nunito', sans-serif;
+
+  }
+
+  .rightnav li{
+    display: inline;
+    font-size:18px;
+    margin-left: 15px;
+  }
+
+  .navmenu{
+    color: white;
+    text-decoration: none;
+  }
+
+  .navmenu:hover{
+    color: #00cc33;
+  }
+
+  .content{
+    overflow:Auto;
+  }
+
+  .bidwindow{
+    width:850px;
+    display:float;
+    margin: 200px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    overflow:auto;
+
+  }
+
+  .winner{
+    display:float;
+    float:left;
+    width:795px;
+    margin-left:25px;
+    text-align:center;
+    margin-bottom:15px;
+  }
+  .text{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .bidding{
+    float:left;
+    width:350px;
+    text-align:center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    margin-left:25px;
+  }
+
+  .bidding img {
+   border-radius: 2%;
+   height: 320px;
+   width: 350px;
+
+ }
+
+ .adtitle{
+   font-weight:bold;
+   font-size: 20px;
+   margin-bottom: 10px;
+ }
+
+ .bidboard{
+   float:left;
+   text-align:center;
+   font-family: 'Nunito', sans-serif;
+   width:450px;
+
+ }
+
+ .offeredprices{
+   font-size: 18px;
+   font-weight:bold;
+ }
+
+.bids{
+  overflow-y: auto;
+  overflow-x: hidden;
+  height:400px;
+}
+
+ table{
+   width:100%;
+   margin-left:6px;
+ }
+
+th{
+  position: sticky;
+  top: 0;
+  background-color: #5ECC88;
+}
+
+  table td, table th {
+   color: #2b686e;
+   padding: 10px;
+ }
+
+  table td {
+   text-align: center;
+   vertical-align: middle;
+ }
+
+ table tr{
+   width: 100%;
+ }
+
+ .tablehead {
+  background-color: #5ECC88;
+}
+
+
+
+
+.modifyad{
+  margin: 0 auto;
+  background: indigo;
+  border: 2px solid indigo;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  width: 40%;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.modifyad:hover {
+background-color:white;
+color:black;
+}
+
+
+.deletead{
+  margin: 0 auto;
+  background: red;
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  width: 40%;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.deletead:hover {
+background-color:white;
+color:black;
+}
+
+
+
+.biddetails{
+  margin: 0 auto;
+  background: green;
+  border: 2px solid green;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  width: 40%;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.biddetails:hover {
+background-color:white;
+color:black;
+}
+
+</style>

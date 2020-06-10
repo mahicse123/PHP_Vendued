@@ -1,0 +1,147 @@
+<style>
+
+
+  .navbar{
+    display:float;
+  }
+  .leftnav{
+    height:90px;
+    width:40%;
+    background-color:black;
+    float:left;
+  }
+
+  .leftnav h1{
+    font-family: 'Nunito', sans-serif;
+    color: #00cc33;
+  }
+
+  .leftnav img{
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .rightnav{
+    height:90px;
+    width:60%;
+    background-color:black;
+    float:left;
+  }
+
+  .rightnav ul{
+    float: right;
+    margin-top: 35px;
+    margin-right: 120px;
+    color: white;
+    list-style-type: none;
+    font-family: 'Nunito', sans-serif;
+
+  }
+
+  .rightnav li{
+    display: inline;
+    font-size:18px;
+    margin-left: 15px;
+  }
+
+  .navmenu{
+    color: white;
+    text-decoration: none;
+  }
+
+  .navmenu:hover{
+    color: #00cc33;
+  }
+
+  .content{
+    display:float;
+  }
+
+  .leftcontent{
+    margin-left: 20px;
+    height:900px;
+    width:20%;
+    background-color:white;
+    float:left;
+  }
+
+  .categoriesList{
+    color: black;
+    text-decoration: none;
+  }
+
+  .categoriesList:hover{
+    color: #00cc33;
+  }
+
+  .userImage{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-left: 20px;
+  }
+
+  .rightcontent{
+    color: black;
+    
+    width:78%;
+    background-color:white;
+    float:left;
+    font-family: 'Nunito', sans-serif;
+  }
+
+/*  table tr:nth-child(2n+1) {
+    background-color: #5ECC88;
+ }*/
+
+table{
+  border-collapse: separate;
+  border-spacing: 0px 20px;
+}
+
+ td img {
+  border-radius: 10%;
+  height: 150px;
+  width: 150px;
+}
+
+ table td, table th {
+  color: #2b686e;
+  padding: 10px;
+}
+ table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+
+.productDetails{
+  text-align:justify;
+  margin: 0;
+  padding: 0;
+}
+
+
+.bidbutton{
+
+  background: #5ECC88;
+  border: 2px solid #5ECC88;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 5px 10px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+ .bidbutton:hover{
+   background: white;
+   color: black;
+
+ }
+
+
+
+</style>
